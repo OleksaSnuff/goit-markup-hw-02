@@ -33,7 +33,7 @@ a {
   letter-spacing: 0.02em;
 }
 .header-nav-li:hover,
-.header-nav-li:active {
+.header-nav-li:focus {
   color: #404bbf;
 }
 .addr {
@@ -47,7 +47,7 @@ a {
   letter-spacing: 0.02em;
 }
 .addr-links:hover,
-.addr-links:active {
+.addr-links:focus {
   color: #404bbf;
 }
 .hero-text {
@@ -56,6 +56,7 @@ a {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .hero {
   background-color: #2e2f42;
@@ -71,8 +72,8 @@ a {
   letter-spacing: 0.04em;
 }
 .order-butt:hover,
-.order-butt:active {
-  color: #404bbf;
+.order-butt:focus {
+  background-color: #404bbf;
 }
 .advantages-header {
   color: #2e2f42;
@@ -97,12 +98,14 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 .our-team-name {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.04em;
+  letter-spacing: 0eem;
 }
 .our-team-position {
   font-size: 16px;
@@ -121,6 +124,7 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 .portfolio-li {
   background-color: #ffffff;
