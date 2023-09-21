@@ -20,21 +20,29 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <nav class="navigation-links">
+    <header class="header">
+      <nav class="header-nav-links">
         <a href="./index.html" class="logo"
-          ><span class="web-logo">Web</span>Studio</a
+          >Web<span class="studio-logo">Studio</span></a
         >
         <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+          <li><a href="" class="header-nav-li">Studio</a></li>
+          <li><a href="" class="header-nav-li">Portfolio</a></li>
+          <li><a href="" class="header-nav-li">Contacts</a></li>
         </ul>
       </nav>
-      <address class="addr-links">
+      <address class="addr">
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="addr-links"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+110001111111" class="addr-links"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
@@ -44,7 +52,7 @@
         <button type="button" class="order-butt">Order Service</button>
       </section>
 
-      <section>
+      <section class="advantages">
         <h2>Advantages</h2>
         <ul>
           <li>
@@ -78,8 +86,8 @@
         </ul>
       </section>
       <section class="our-team">
-        <h2>Our Team</h2>
-        <ul>
+        <h2 class="our-team-header">Our Team</h2>
+        <ul class="our-team-ul">
           <li>
             <img
               src="./images/mark.jpg"
@@ -87,8 +95,8 @@
               width="264"
               height="260"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="our-team-name">Mark Guerrero</h3>
+            <p class="our-team-position">Product Designer</p>
           </li>
           <li>
             <img
@@ -97,8 +105,8 @@
               width="264"
               height="260"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="our-team-name">Tom Ford</h3>
+            <p class="our-team-position">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -107,8 +115,8 @@
               width="264"
               height="260"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="our-team-name">Camila Garcia</h3>
+            <p class="our-team-position">Marketing</p>
           </li>
           <li>
             <img
@@ -117,80 +125,82 @@
               width="264"
               height="260"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="our-team-name">Daniel Wilson</h3>
+            <p class="our-team-position">UI Designer</p>
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Our Portfolio</h2>
+      <section class="portfolio">
+        <h2 class="portfolio-header">Our Portfolio</h2>
         <ul>
-          <li>
+          <li class="portfolio-li">
             <img
               src="./images/banking-app.jpg"
               alt="Banking App"
               width="360"
               height="300"
             />
-            <h3>Banking App</h3>
-            <p>App</p>
+            <h3 class="portfolio-name-app">Banking App</h3>
+            <p class="portfolio-position">App</p>
           </li>
-          <li>
+          <li class="portfolio-li">
             <img
               src="./images/cashless-payment.jpg"
               alt="smartphone with qr on screen"
               width="360"
               height="300"
             />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <h3 class="portfolio-name-app">Cashless Payment</h3>
+            <p class="portfolio-position">Marketing</p>
           </li>
-          <li>
+          <li class="portfolio-li">
             <img
               src="./images/meditation-app.jpg"
               alt="notebook and smartphone"
               width="360"
               height="300"
             />
-            <h3>Meditation App</h3>
-            <p>App</p>
+            <h3 class="portfolio-name-app">Meditation App</h3>
+            <p class="portfolio-position">App</p>
           </li>
-          <li>
+          <li class="portfolio-li">
             <img
               src="./images/taxi-service.jpg"
               alt="taxi driver in car"
               width="360"
               height="300"
             />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <h3 class="portfolio-name-app">Taxi Service</h3>
+            <p class="portfolio-position">Marketing</p>
           </li>
-          <li>
+          <li class="portfolio-li">
             <img
               src="./images/screen-illustrations.jpg"
               alt="screenlock on smartphone"
               width="360"
               height="300"
             />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <h3 class="portfolio-name-app">Screen Illustrations</h3>
+            <p class="portfolio-position">Design</p>
           </li>
-          <li>
+          <li class="portfolio-li">
             <img
               src="./images/online-courses.jpg"
               alt="woman with smartphone and headphones"
               width="360"
               height="300"
             />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <h3 class="portfolio-name-app">Online Courses</h3>
+            <p class="portfolio-position">Marketing</p>
           </li>
         </ul>
       </section>
     </main>
 
     <footer class="footer">
-      <a href="/" class="foot-logo"><span class="web-logo">Web</span>Studio</a>
+      <a href="/" class="foot-logo"
+        >Web<span class="footer-logo-studio">Studio</span></a
+      >
       <p class="text-footer">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
